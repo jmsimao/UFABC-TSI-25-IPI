@@ -1,0 +1,6 @@
+numA=int(input())
+numB=int(input())
+numC=int(input())
+print(numC)
+print(numB)
+print(numA)

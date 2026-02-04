@@ -1,0 +1,5 @@
+numeros=input()
+numA=int(numeros.split()[0])
+numB=int(numeros.split()[1])
+numC=int(numeros.split()[2])
+print('%d %d %d' % (numC, numB, numA))

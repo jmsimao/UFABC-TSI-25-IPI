@@ -1,0 +1,6 @@
+cadA=input()
+cadB=input()
+cadC=input()
+print('%s' % (cadA))
+print('%s' % (cadB))
+print('%s' % (cadC))

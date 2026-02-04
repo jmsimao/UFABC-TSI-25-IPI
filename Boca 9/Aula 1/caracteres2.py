@@ -1,0 +1,6 @@
+carA=input()
+carB=input()
+carC=input()
+print(carC)
+print(carB)
+print(carA)

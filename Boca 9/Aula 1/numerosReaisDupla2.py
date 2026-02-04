@@ -1,0 +1,6 @@
+realA=float(input())
+realB=float(input())
+realC=float(input())
+print('%.4f' % (realC))
+print('%.4f' % (realB))
+print('%.4f' % (realA))

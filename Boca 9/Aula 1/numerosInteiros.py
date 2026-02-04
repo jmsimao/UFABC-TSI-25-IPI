@@ -1,0 +1,6 @@
+numA=int(input())
+numB=int(input())
+numC=int(input())
+print('%d' % (numA))
+print('%d' % (numB))
+print('%d' % (numC))

@@ -1,0 +1,5 @@
+numeros=input()
+numA=int(numeros.split()[0])
+numB=int(numeros.split()[1])
+restoDivisaoInteira=int(numA % numB)
+print('%d' % (restoDivisaoInteira))

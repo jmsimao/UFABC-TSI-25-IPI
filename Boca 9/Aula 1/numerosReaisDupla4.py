@@ -1,0 +1,5 @@
+real=input()
+realDupla_A=float(real.split()[0])
+realDupla_B=float(real.split()[1])
+realDupla_C=float(real.split()[2])
+print('%.4f %.4f %.4f' % (realDupla_C, realDupla_B, realDupla_A))

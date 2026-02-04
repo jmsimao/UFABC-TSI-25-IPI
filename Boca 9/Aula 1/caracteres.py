@@ -1,0 +1,6 @@
+carA=input()
+carB=input()
+carC=input()
+print('%s' % (carA))
+print('%s' % (carB))
+print('%s' % (carC))
