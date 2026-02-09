@@ -19,4 +19,4 @@ if (posX < 0 and posY > 0):
 elif (posX < 0 and posY < 0):
     ret = 'Q3'
 
-print('%s' % ret)
+print(ret)
