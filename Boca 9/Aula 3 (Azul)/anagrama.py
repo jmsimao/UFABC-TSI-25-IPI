@@ -11,14 +11,12 @@ def inverso(pal):
 while (laco):
 
     try:
-        x = str(input())
-        palavras.append(x)
+        pal = str(input())
+        palavras.append(pal)
+        palavraInversa.append(inverso(pal))
 
     except EOFError:
         laco = False
-
-for i in range(0, len(palavras)):
-    palavraInversa.append(inverso(palavras[i]))
 
 for i in range(0, len(palavras)):
     for c in range(0, len(palavras)):
