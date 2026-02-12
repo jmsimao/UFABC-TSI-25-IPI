@@ -18,9 +18,15 @@ while (laco):
     except EOFError:
         laco = False
 
-for i in range(0, len(palavras)):
-    for c in range(0, len(palavras)):
-        if (i != c and palavras[i] == palavraInversa[c]):
-            anagrama = 'sim'
+
+reading = True; count = 0
+
+while (reading and count <= len(palavras)-1) :
+  
+    for i in range(0, len(palavraInversa)):
+        if (count != i and palavras[count] == palavraInversa[i]):
+            anagrama = 'sim'; reading = False
+
+    count += 1
 
 print('%s' % anagrama)
