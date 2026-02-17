@@ -7,7 +7,7 @@ def maiorElemento(vetor):
     for i in range(0, len(vetor)):
         if (i == 0):
             posicao = i; maiorElemento = vetor[i]
-        elif (i > 0 and vetor[i] >= maiorElemento):
+        elif (i > 0 and vetor[i] > maiorElemento):
             posicao = i; maiorElemento = vetor[i]
 
     return [posicao, maiorElemento]
@@ -27,7 +27,7 @@ while (laco):
 
             posicao, maiorElem = maiorElemento(vetor)
 
-            print('%s %s' % (posicao, maiorElem))
+            print('%d %d' % (posicao, maiorElem))
 
     except EOFError:
         laco = False
